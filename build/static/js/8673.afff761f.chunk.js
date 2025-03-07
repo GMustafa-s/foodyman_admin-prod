@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgithubit_dashboard=self.webpackChunkgithubit_dashboard||[]).push([[8673],{88673:(s,t,a)=>{a.r(t),a.d(t,{default:()=>h});a(72791);var d=a(16871),u=a(63189),e=a(80184);const h=()=>{const{id:s}=(0,d.UO)();return(0,e.jsx)(u.Z,{id:s})}}}]);
+//# sourceMappingURL=8673.afff761f.chunk.js.map

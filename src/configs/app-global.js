@@ -1,7 +1,7 @@
 // project settings, you can change only PROJECT_NAME, BASE_URL and WEBSITE_URL otherwise it can break the app
 export const PROJECT_NAME = 'Foodyman marketplace';
 export const BASE_URL =
-  process.env.REACT_APP_BASE_URL || 'https://api.foodyman.org';
+  process.env.REACT_APP_BASE_URL || 'http://127.0.0.1:8000';
 export const WEBSITE_URL = 'https://foodyman.org';
 export const api_url = BASE_URL + '/api/v1/';
 export const api_url_admin = BASE_URL + '/api/v1/dashboard/admin/';
@@ -14,18 +14,17 @@ export const example = BASE_URL + '/';
 export const MAP_API_KEY = '';
 
 // firebase keys, do not forget to change to your own keys here and in file public/firebase-messaging-sw.js
-export const VAPID_KEY =
-  '';
-export const API_KEY = '';
-export const AUTH_DOMAIN = '';
-export const PROJECT_ID = '';
-export const STORAGE_BUCKET = '';
-export const MESSAGING_SENDER_ID = '';
-export const APP_ID = '';
-export const MEASUREMENT_ID = '';
+export const VAPID_KEY = '';
+export const API_KEY = 'AIzaSyAtqCoZBKZffoW-a_73ec00mnrUlH0BsZ8';
+export const AUTH_DOMAIN = 'foodyman-admin.firebaseapp.com';
+export const PROJECT_ID = 'foodyman-admin';
+export const STORAGE_BUCKET = 'foodyman-admin.firebasestorage.app';
+export const MESSAGING_SENDER_ID = '531938679560';
+export const APP_ID = '1:531938679560:web:518d01e6d03307e5946abd';
+export const MEASUREMENT_ID = 'G-8QQ01NTZKX';
 
 // recaptcha key, you can get it from https://www.google.com/recaptcha/admin/create
-export const RECAPTCHASITEKEY = '';
+export const RECAPTCHASITEKEY = '6LcvUuwqAAAAACkScdY7Zwr5ZpsYPO1dDEnRf5iU';
 
 // demo data, no need to change
 export const LAT = 47.4143302506288;

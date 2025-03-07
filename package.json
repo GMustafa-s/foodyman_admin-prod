@@ -10,7 +10,7 @@
     "@ckeditor/ckeditor5-react": "^5.0.2",
     "@reduxjs/toolkit": "^1.8.3",
     "@rive-app/react-canvas": "^3.0.35",
-    "antd": "4.20.6",
+    "antd": "^4.20.6",
     "apexcharts": "^3.35.5",
     "autosize": "^5.0.1",
     "axios": "^0.27.2",
